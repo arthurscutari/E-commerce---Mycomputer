@@ -1,0 +1,131 @@
+.section__registro {
+
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color--fourth);
+    
+}
+.div__registro{
+
+    width: 30%;
+    height: 90%;
+    background-color: var(--color--fourth);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.div__registro form {
+
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div__h2__registro {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.div__h2__registro div span {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: var(--color--third);
+}
+.div__h2__registro h2 {
+
+    font-family: var(--font--second);
+    color: var(--color--second);
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+.div__h2__registro p {
+
+    font-family:var(--font--second);
+    color: var(--color--second);
+    font-size: 14px;
+}
+.div__input__registro{
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color--third);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.div__input__registro div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%;
+}
+.div__input__registro div span{
+
+    color: var(--color--third);
+    font-size: 25px;
+}
+.div__input__registro input {
+
+    width: 85%;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+    font-family: var(--font--second);
+    padding-left: 5px;
+}
+.div__input__registro input::placeholder {
+
+    color: var(--color--second);
+}
+
+
+.div__input__button button {
+
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--color--fourth);
+    font-family: var(--font--first);
+    background-color: var(--color--third);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.div__input__registro a{
+
+    
+    color: var(--color--second);
+    font-family: var(--font--first);
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+
+    }
+
+.div__input__button{
+
+    width: 85%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

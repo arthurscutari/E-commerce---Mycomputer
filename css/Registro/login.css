@@ -1,0 +1,103 @@
+.section__login {
+
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color--fourth);
+    
+}
+.div__login{
+
+    width: 30%;
+    height: 70%;
+    background-color: var(--color--fourth);
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.div__login form {
+
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div__h2__login {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.div__h2__login div i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--color--third);
+}
+.div__h2__login h2 {
+
+    font-family: var(--font--second);
+    color: var(--color--second);
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+.div__input__login{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__input__login input {
+
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color--third);
+    height: 40px;
+    font-family: var(--font--second);
+    padding-left: 5px;
+}
+.div__input__login input::placeholder {
+
+    color: var(--color--second);
+}
+
+
+.div__input__login button {
+
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--color--fourth);
+    font-family: var(--font--first);
+    background-color: var(--color--third);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 40px 0;
+    cursor: pointer;
+}
+.div__input__login a{
+
+    
+    color: var(--color--second);
+    font-family: var(--font--first);
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+
+    }
