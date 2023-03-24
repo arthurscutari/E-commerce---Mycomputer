@@ -1,0 +1,112 @@
+.section__sobrenos{
+
+    width: 100vw;
+    height: 220vh;
+}
+.div__quemSomos, .div__nossaMissao{
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div__quemSomos div {
+
+    width: 50%;
+    height: 100%;
+
+}
+.div__texto__quemSomos, .div__texto__nossaMissao, .div__img__nossaMissao {
+
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.div__texto__quemSomos h2, .div__texto__nossaMissao h2{
+    color: var(--color--third);
+    font-family: var(--font--second);
+    font-size: 23px;
+}
+
+.div__texto__quemSomos p, .div__texto__nossaMissao p {
+
+    color: var(--color--fourth);
+    font-family: var(--font--second);
+    font-size: 16px;
+    text-align: justify;
+}
+.div__img__quemSomos, .div__img__nossaMissao{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div__img__quemSomos img, .div__img__nossaMissao img{
+
+    border: none;
+    border-radius: 30px 120px 100px 120px;
+}
+.div__texto__nossaMissao {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.div__detalhes__quemSomos{
+
+    width: 100%;
+    height: 40vh;
+    background-color: var(--color--fourth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+}
+.div__detalhes__quemSomos div{
+
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.div__detalhes__quemSomos div h2 {
+
+    color: var(--color--second);
+    font-family: var(--font--second);
+    font-size: 16px;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+.div__detalhes__quemSomos div h3 {
+
+    color: var(--color--second);
+    font-family: var(--font--second);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+.div__detalhes__quemSomos div div span{
+    font-size: 80px;
+    color: var(--color--second);
+}
+.div__detalhes__quemSomos div div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
