@@ -1,0 +1,94 @@
+.div__categoriasLoja{
+
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 10px;
+}
+.div__btnCategorias{
+    background-color: var(--color--second);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     width: 100%;
+}
+.div__btnCategorias button {
+
+    background-color: var(--color--second);
+    border: none;
+    height: 35px;
+    color: var(--color--fourth);
+    font-family: var(--font--second);
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 7px;
+}
+
+.div__containerCategorias{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.div__containerCategorias a{
+
+
+    color: var(--color--second);
+    font-family: var(--font--second);
+    padding-left: 7px;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.div__carrinhoLoja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform 0.2s ease-in-out; 
+    
+}
+.div__carrinhoLoja div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--color--third);
+    color: var(--color--fourth);
+    font-size: 15px;
+    border: none;
+    height: 50px;
+    border-radius: 15px 0 0 15px;
+    width: 20%;
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer;
+  }
+  
+  .div__carrinhoLoja button {
+    background-color: var(--color--third);
+    color: var(--color--fourth);
+    font-family: var(--font--second);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    height: 50px;
+    width: 80%;
+    border-radius: 0 15px 15px 0;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer; 
+  }
+  
+  .div__carrinhoLoja button:focus {
+    outline: none;
+  }
+  
+  .div__carrinhoLoja:active{
+    transform: translateY(6px); 
+  }
+  
+  

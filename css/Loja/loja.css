@@ -1,0 +1,13 @@
+.section__loja{
+    width: 100vw;
+    height: 210vh;
+    background-color: var(--color--fourth);
+}
+
+.div__categoriasEprodutos{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+}
