@@ -1,0 +1,104 @@
+header {
+    width: 1600px;
+    height: 10vh;
+    overflow-x: hidden;
+    background-color: var(--color--fourth);
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+/*CSS do nome do banco*/
+.div__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin: 0;
+    height: 100%;
+    
+}
+.div__logo h2 {
+
+    font-family: var(--font--first);
+    color: var(--color--second);
+    margin:0
+
+}
+.div__logo h2:nth-of-type(2){
+
+    color: var(--color--third);
+}
+.div__logo span {
+    height: 35px;
+    width: 35px;
+    color: var(--color--second);
+    
+}
+
+/*CSS do navegação*/
+
+
+.nav__header{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav__header ul {
+
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__header ul li {
+    list-style: none;
+    font-family: var(--font--second);
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: calc(var(--font--size--first)+5);
+
+}
+/*CSS dos botões*/
+
+.div__button{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn__header__login{
+    background-color: none;
+    border: none;
+    font-family: var(--font--first);
+    font-size: calc(var(--font--size--first)+5);
+    width: 3vw;
+    padding:0;
+    height: 50%;
+    color: var(--color--first);
+    cursor: pointer;
+    
+}
+.btn__header__registro{
+    background-color: var(--color--second);
+    border: none;
+    font-family: var(--font--first);
+    font-size: calc(var(--font--size--first)+5);
+    width: 8vw;
+    padding:0;
+    height: 50%;
+    border: none;
+    border-radius: 20px;
+    color: var(--color--fourth);
+    cursor: pointer;
+    margin-right: 50px;
+    
+}
+.div__button span {
+
+    color: var(--color--first);
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+

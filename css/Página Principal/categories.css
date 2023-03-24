@@ -1,0 +1,89 @@
+.section__categorias {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.div__grid{
+
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.div__title__categorias{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.div__title__categorias div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color--fourth);
+    
+}
+
+.div__title__categorias div span {
+
+    font-size: 35px;
+}
+
+.div__title__categorias h2{
+
+    font-family: var(--font--second);
+    text-transform: uppercase;
+    color: var(--color--fourth);
+}
+.grid__item, .a__index  {
+    background-color: var(--color--fourth);
+    height: 20vh;
+    width: 20vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*CSS do items do grid*/
+
+.grid__item, .a__index{
+
+    display: flex;
+
+
+}
+.grid__item:hover{
+
+    transform: scale(1.05);
+}
+.grid__item div .a__index h3{
+
+    color: var(--font--second);
+    text-transform: uppercase;
+    font-size: calc(var(--font--size--first)*1.5);
+    font-family: var(--font--second);
+
+}
+.grid__item .a__index div {
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid__item .a__index div:nth-of-type(2) {
+
+    width: 40%;
+}
+.img__departamentos{
+
+    width: 80%;
+    height: 70%;
+    padding: 10px;
+}

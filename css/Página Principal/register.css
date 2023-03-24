@@ -1,0 +1,101 @@
+.section__register{
+
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--color--fourth);
+    padding: 0;
+    display: flex;
+
+}
+
+.section__register div{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img__registerPaginaIInicial{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.section__register div:nth-of-type(2){
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__registerPaginaInicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.form__registerPaginaInicial div{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__registerPaginaInicial div span{
+    font-size: 50px;
+    color: rgb(99, 33, 206);
+}
+.form__registerPaginaInicial div:nth-of-type(2){
+    width: 245px;
+    height: 22px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+.form__registerPaginaInicial p {
+
+    font-family: var(--font--first);
+    text-align: center;
+    padding: 30px;
+    color: var(--color--second);
+    margin:0;
+}
+.form__registerPaginaInicial label{
+    color: rgb(99, 33, 206);
+    font-family: var(--font--first);
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 5px 5px 0;
+    font-weight: 500;
+}
+.form__registerPaginaInicial input{
+    height: 35px;
+    margin: 0;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 6px;
+}
+    
+.form__registerPaginaInicial button{
+
+    width: 70%;
+    height: 40px;
+    border: none;
+    background-color: rgb(99, 33, 206);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--color--fourth);
+    font-family: var(--font--first);
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(62, 21, 128);
+}

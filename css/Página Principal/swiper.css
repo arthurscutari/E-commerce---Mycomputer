@@ -1,0 +1,58 @@
+/*CSS da Div com o swiper*/
+
+.div__swiper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding:0;
+}
+
+.swiper {
+  height: 580px;
+  width: 480px;
+  display: flex;
+  align-items: center;
+}
+.swiper-slide{
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.h2__swiper{
+
+  font-family: var(--font--first);
+  color: var(--color--fourth);
+}
+
+.div__btn__swiper{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn__swiper{
+  background-color: var(--color--second);
+  border: none;
+  font-family: var(--font--first);
+  font-size: calc(var(--font--size--first)+5);
+  font-weight: 500;
+  width: 3vw;
+  padding:0;
+  height: 40px;
+  width: 440px;
+  color: rgb(221, 219, 71);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 1px;
+  border-radius: 20px
+}
