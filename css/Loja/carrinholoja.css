@@ -1,8 +1,168 @@
 .section__carrinhoLoja{
 
-    width: 20vw;
-    height: 100vh;
+    width: 27vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid var(--color--first);
+    flex-direction: column;
+    padding: 15px;
+    display: none;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.div__tituloCarrinho {
+
+    font-family: var(--font--second);
+    font-weight: 500;
+    color: var(--color--first);
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.div__tituloCarrinho div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fecharCarrinho {
+    color: brown;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.div__tituloItensePreço{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.div__tituloItens {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    color: var(--color--first);
+    font-family: var(--font--second);
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.div__tituloPreço{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    color: var(--color--first);
+    font-family: var(--font--second);
+    font-weight: 500;
+    font-size: 12px;
+
+}
+/*CSS do produtos adicionados.*/
+.div__produtoNoCarrinho{
+
+    width: 100%;
+    display: flex;
+}
+
+.div__imagemProdutoCarrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.imagem__produtoCarrinho {
+
+    height: 80px;
+    width: 80px;
+}
+
+
+.div__descricaçãoProdutoCarrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.div__descricaçãoProdutoCarrinho p {
+
+   color: var(--color--first);
+   font-family: var(--font--second);
+   font-size: 10px;
+   text-align: center;
+
+}
+.div__preçoProdutoCarrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.div__preçoProdutoCarrinho p {
+
+    color: var(--color--first);
+    font-family: var(--font--second);
+    font-size: 11px;
+ 
+}
+
+.div__comprarCarrinho{
+
+    width: 27vw;
+    height: 9.5vw;
+    border: 3px solid var(--color--first);
+    border-radius: 10px;
     background-color: white;
-    position: fixed;
-    left: auto;
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding: 20px;
+   
+}
+.div__btnComprarCarrinho{
+
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.btn__comprarCarrinho{
+
+    width:60%;
+    font-family: var(--font--second);
+    color: var(--color--fourth);
+    background-color: var(--color--third);
+    height: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.div__totalCarrinho{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.p__totalCarrinho, .p__totalValorCarrinho{
+
+    color: var(--color--second);
+    font-family: var(--font--second);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
 }
