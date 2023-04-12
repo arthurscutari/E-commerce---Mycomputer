@@ -46,10 +46,10 @@
       </div>
       <nav class="nav__header">
         <ul>
-          <li><a href="index.html">Página Inicial</a></li>
-          <li><a href="html/loja.html">Loja</a></li>
-          <li><a href="html/sobrenos.html">Sobre Nós</a></li>
-          <li> <a href="html/contatos.html">Contatos</a></li>
+          <a href="html/index.html"><li>Página Inicial</li></a>
+          <a href="../html/loja.html"><li>Loja</li></a>
+          <a href="../html/sobrenos.html"><li>Sobre Nós</li></a>
+          <a href="../html/contatos.html"><li>Contatos</li></a>
         </ul>
       </nav>
       <div class="div__button">
@@ -103,7 +103,7 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img
-                src="img/PCcompleto.png"
+                src="../img/PCcompleto.png"
                 alt="Imagem ilustrativa de promoção"
                 height="480px"
                 width="480px"
@@ -155,9 +155,10 @@
           <input
             type="text"
             name="input__register"
-            placeholder="Digite aqui..."
-          />
-          <button>cadastrar</button>
+            placeholder="Digite aqui..." required maxlength="11" 
+            id="input__index"
+            />
+          <button id="botão__cadastrar__index"><a href="html/registro.html"> cadastrar</a></button>
         </form>
       </div>
     </section>
@@ -343,5 +344,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/modalCarrinho.js"></script>
+    <script src="js/cadastroIndex.js"></script>
   </body>
 </html>
