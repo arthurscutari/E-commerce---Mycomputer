@@ -1,6 +1,10 @@
 
 const carrinhoDeCompras = document.querySelector(".section__carrinhoLoja");
 const botoesComprar = document.querySelectorAll(".div__produtoLojaItemBotao");
+/*variaveis para total de compra*/
+var preçoCarrinhoComprar = document.querySelector(".p__totalValorCarrinho").innerHTML;
+var numeroPreço = parseInt(preçoCarrinhoComprar);
+
 botoesComprar.forEach(botao => {
   botao.addEventListener("click", criarEspacocarrinho);
 });
@@ -20,8 +24,6 @@ function criarEspacocarrinho() {
     const imgProdutoLoja = this.parentNode.querySelector(".img_PRODUTO");
     const descProdutoLoja = this.parentNode.querySelector(".p__descriçãoItem");
     const precoProdutoLoja = this.parentNode.querySelector(".h3__precoLojaItem");
-
-    console.log(descProdutoLoja,precoProdutoLoja);
 
     /*Add classes nas divs.*/
     
@@ -50,8 +52,23 @@ function criarEspacocarrinho() {
     /*Atribuindo propriedades*/
 
     imgProdutoCarrinho.setAttribute('src', imgSRC);
-    
     precoProdutoCarrinho.innerHTML = precoValue;
     descProdutoCarrinho.innerHTML = descValue;
-    
+
+    /*Atualizando Valores*/
+
+     // Remover caracteres não numéricos do preçoValue
+     const precoValueSemSimbolos = precoValue.replace("R$", "").replace(",", "").replace(".", "");
+
+     // Converter a string do preço para um número
+     const precoNumerico = parseFloat(precoValueSemSimbolos);
+
+    // Atribuir o valor numérico formatado com vírgula ao elemento de preço do carrinho
+    precoProdutoCarrinho.innerHTML = precoNumerico.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+    // Atualizar o valor total do carrinho
+    numeroPreço += precoNumerico;
+    document.querySelector(".p__totalValorCarrinho").innerHTML = numeroPreço.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
 }
+
