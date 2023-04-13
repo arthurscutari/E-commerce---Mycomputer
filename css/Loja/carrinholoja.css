@@ -119,7 +119,7 @@
     border: 3px solid var(--color--first);
     border-radius: 10px;
     background-color: white;
-    display: flex;
+    display: none;
     flex-direction:column;
     box-sizing: border-box;
     padding: 20px;
